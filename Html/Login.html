@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="../CSS/Login.css">
+    <script src="../JS/Jquery.js"></script>
+</head>
+
+<body>
+
+    <div id="LoginContanier">
+
+        <div id="MainImgDiv">
+            <h2>Welcome Back</h2>
+            <img src="/images/Login.png">
+        </div>
+        
+        <div id="FormContatnier">
+            <div id="pointsspan">
+                <span class="pointsspan"></span><span class="pointsspan"></span><span class="pointsspan"></span>
+            </div>
+            <form id="Login_Form" method="post" action="/Html/Exam.html">
+            <h1>Login</h1>
+            <input id="Email_Input" placeholder="Email" type="email" autocomplete="off">
+            <span></span>
+            <input id="Password_Input" placeholder="Password" type="password" autocomplete="off">
+            <span></span>
+            <span id="incorrectacc">.</span>
+            <button id="Login_Button">Log in</button>
+        </form>
+    </div>
+</div>
+    
+    <script src="../JS/Login.js"></script>
+</body>
+
+</html>

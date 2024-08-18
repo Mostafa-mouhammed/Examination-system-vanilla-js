@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Kanit:wght@500&family=Luckiest+Guy&family=Noto+Sans+Hebrew:wght@600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main:rgb(77, 89, 98);
+}
+
+body {
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.contentCard {
+    color: white;
+    width: 30%;
+    background-color:rgb(208, 219, 229);
+    border-radius: 0.3rem 0.3rem 0 0;
+    border: 0.5rem solid var(--main) ;
+    border-bottom: 2rem solid var(--main);
+    text-align: center;
+    object-fit: contain;
+    align-self: center;
+    margin: 0 auto;
+}
+
+h4 {
+    font-size: 1.15rem;
+    padding: 1rem;
+    background-color:var(--main);
+}
+
+h5 {
+    padding-bottom: 1rem;
+    background-color:var(--main);
+    font-size: 2rem;
+}
+
+#TimeoutImg {
+    width: 80%;
+    margin: 1rem auto 0 auto;
+    padding: 3rem 0;
+}
+
+#TimeoutImg img {
+    width: 100%;
+    object-fit: contain;
+}

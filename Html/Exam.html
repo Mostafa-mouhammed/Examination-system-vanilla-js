@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Page</title>
+    <link rel="stylesheet" href="/CSS/Exam.css">
+    <script src="/JS/Jquery.js"></script>
+    <script src="https://kit.fontawesome.com/3bb01edb3e.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+
+</head>
+
+<body>
+    <div id="Exam_Main_Contanier">
+
+        <div id="Exam_items">
+            <div id="Progress_Timer">
+                <progress max="120" value="0" id="Time_progress_bar"></progress>
+
+                <svg id="timerclock" width="430" height="430" viewBox="0 0 430 430" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M334.14 334.64C310.576 358.204 280.554 374.251 247.87 380.752C215.187 387.254 181.309 383.917 150.521 371.164C119.734 358.412 93.419 336.816 74.905 309.108C56.3911 281.4 46.5093 248.824 46.5093 215.5C46.5093 182.176 56.3911 149.6 74.905 121.892C93.419 94.1836 119.734 72.5878 150.521 59.8353C181.309 47.0827 215.187 43.7461 247.87 50.2474C280.554 56.7487 310.576 72.796 334.14 96.3598C349.788 112.004 362.201 130.578 370.67 151.02C379.139 171.462 383.498 193.373 383.498 215.5C383.498 237.627 379.139 259.537 370.67 279.979C362.201 300.422 349.788 318.995 334.14 334.64Z"
+                        fill="#4BB3FD" />
+                    <path
+                        d="M312.37 312.869C293.112 332.126 268.577 345.24 241.865 350.553C215.154 355.866 187.468 353.139 162.307 342.717C137.145 332.294 115.64 314.645 100.509 292.001C85.3788 269.356 77.303 242.733 77.303 215.499C77.303 188.265 85.3788 161.642 100.509 138.997C115.64 116.353 137.145 98.7034 162.307 88.2811C187.468 77.8588 215.154 75.1316 241.865 80.4445C268.577 85.7573 293.112 98.8716 312.37 118.129C325.158 130.915 335.303 146.095 342.224 162.802C349.145 179.509 352.707 197.415 352.707 215.499C352.707 233.583 349.145 251.489 342.224 268.196C335.303 284.903 325.158 300.083 312.37 312.869Z"
+                        fill="#EBE6EF" />
+                    <g style="mix-blend-mode:multiply" opacity="0.5">
+                        <path
+                            d="M300.52 323.43C285.208 335.555 267.492 344.284 248.548 349.038C229.605 353.792 209.866 354.462 190.644 351.003C171.421 347.544 153.154 340.036 137.056 328.977C120.957 317.918 107.395 303.561 97.2699 286.859C87.1448 270.158 80.6882 251.493 78.3288 232.105C75.9694 212.717 77.7612 193.048 83.5852 174.406C89.4092 155.763 99.1321 138.573 112.109 123.975C125.085 109.378 141.018 97.7082 158.85 89.7402C132.565 110.579 114.789 140.295 108.858 173.31C102.928 206.326 109.25 240.37 126.64 269.055C144.029 297.739 171.289 319.091 203.304 329.102C235.319 339.114 269.887 337.097 300.52 323.43Z"
+                            fill="#EBE6EF" />
+                    </g>
+                    <line class="spinning-line" x1="216" y1="130" x2="216" y2="210"
+                        style="stroke:rgb(246, 145, 67);stroke-width:10">
+                        <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="216 130"
+                            to="216 200" dur="5s" repeatCount="indefinite" />
+                    </line>
+                    <path d="M215 215.501L251.11 179.391" stroke="#121331" stroke-width="7" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path
+                        d="M215 227.539C221.649 227.539 227.04 222.148 227.04 215.499C227.04 208.849 221.649 203.459 215 203.459C208.35 203.459 202.96 208.849 202.96 215.499C202.96 222.148 208.35 227.539 215 227.539Z"
+                        fill="#121331" />
+                    <path d="M215 335.851V317.811" stroke="#121331" stroke-width="7" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M300.1 300.6L287.34 287.84" stroke="#121331" stroke-width="7" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M335.35 215.5H317.31" stroke="#121331" stroke-width="7" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M300.1 130.4L287.34 143.16" stroke="#121331" stroke-width="7" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M215 95.1504V113.19" stroke="#121331" stroke-width="7" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M129.9 130.4L142.66 143.16" stroke="#121331" stroke-width="7" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M94.6501 215.5H112.69" stroke="#121331" stroke-width="7" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M129.9 300.6L142.66 287.84" stroke="#121331" stroke-width="7" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <g style="mix-blend-mode:multiply" opacity="0.4">
+                        <path
+                            d="M305.79 357.499C286.544 369.769 265.005 378.001 242.482 381.697C219.958 385.392 196.918 384.474 174.76 378.998C152.602 373.521 131.787 363.601 113.578 349.838C95.3691 336.076 80.1454 318.758 68.8306 298.935C57.5157 279.112 50.3453 257.197 47.7545 234.52C45.1637 211.843 47.2063 188.875 53.7586 167.011C60.3108 145.147 71.2361 124.842 85.8717 107.327C100.507 89.8117 118.548 75.4522 138.9 65.1191C102.468 88.4065 76.3787 124.806 66.0295 166.788C55.6803 208.771 61.8624 253.125 83.2973 290.677C104.732 328.23 139.78 356.108 181.192 368.545C222.604 380.982 267.212 377.028 305.79 357.499Z"
+                            fill="#4BB3FD" />
+                    </g>
+                    <path
+                        d="M334.14 334.64C310.576 358.204 280.554 374.251 247.87 380.752C215.187 387.254 181.309 383.917 150.521 371.164C119.734 358.412 93.419 336.816 74.905 309.108C56.3911 281.4 46.5093 248.824 46.5093 215.5C46.5093 182.176 56.3911 149.6 74.905 121.892C93.419 94.1836 119.734 72.5878 150.521 59.8353C181.309 47.0827 215.187 43.7461 247.87 50.2474C280.554 56.7487 310.576 72.796 334.14 96.3598C349.788 112.004 362.201 130.578 370.67 151.02C379.139 171.462 383.498 193.373 383.498 215.5C383.498 237.627 379.139 259.537 370.67 279.979C362.201 300.422 349.788 318.995 334.14 334.64V334.64Z"
+                        stroke="#121331" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+                    <path
+                        d="M312.37 312.869C293.112 332.126 268.577 345.24 241.865 350.553C215.154 355.866 187.468 353.139 162.307 342.717C137.145 332.294 115.64 314.645 100.509 292.001C85.3788 269.356 77.303 242.733 77.303 215.499C77.303 188.265 85.3788 161.642 100.509 138.997C115.64 116.353 137.145 98.7034 162.307 88.2811C187.468 77.8588 215.154 75.1316 241.865 80.4445C268.577 85.7573 293.112 98.8716 312.37 118.129C325.158 130.915 335.303 146.095 342.224 162.802C349.145 179.509 352.707 197.415 352.707 215.499C352.707 233.583 349.145 251.489 342.224 268.196C335.303 284.903 325.158 300.083 312.37 312.869V312.869Z"
+                        stroke="#121331" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+            </div>
+            <div id="Exam_Wrapper"></div>
+
+            <div id="Prev_Next_Container">
+                <button id="Prev_button"><i class="fa-solid fa-chevron-left"></i></button>
+                <button id="Curr_Question">Current</button>
+                <button id="Next_button"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+            <div id="Mark_Submit_container">
+                <button id="Submit_Button">Submit</button>
+                <button id="Mark_button">
+                    <lord-icon src="https://cdn.lordicon.com/hntobqbr.json" trigger="in" delay="200" state="in-reveal"
+                        style="width:3rem;height:3rem">
+                    </lord-icon>
+                </button>
+            </div>
+        </div>
+
+        <section id="Marked_questions_contatiner">
+            <div class="Marked_questions_contatiner_h2">
+                <h2>Marked Questions<i class="fa-solid fa-bookmark"></i></h2>
+            </div>
+            <div id="Marked_questions"></div>
+        </section>
+    </div>
+
+    <script src="/JS/Exam.js"></script>
+</body>
+
+</html>

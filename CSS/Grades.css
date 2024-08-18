@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Kanit:wght@500&family=Luckiest+Guy&family=Noto+Sans+Hebrew:wght@600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {}
+
+:root {
+    font-size: 15px;
+}
+
+#Sucssess {
+    height: 100vh;
+    width: 100%;
+    background-color: yellowgreen;
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+    padding: 55px;
+}
+
+#GradeContent {
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    width: 50%;
+    height: 50%;
+    cursor: default;
+    margin: 22rem auto;
+    padding: 5rem;
+    text-align: center;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.244);
+}
+
+#Your_Answers {
+    padding: 2rem 0;
+}
+
+#Content {
+    background-color: #c3cfe2;
+    padding: 2rem 0;
+}
+
+#Content h4 {
+    font-size: 2rem;
+    text-align: center;
+    background-color: #4568a1;
+    cursor: default;
+    border-radius: 5rem;
+    background-color: rgb(77, 88, 100);
+    color: white;
+    padding: 1.2rem 4rem;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#CheckAnsicon {
+    margin: 0 auto;
+    display: block;
+}
+
+.ResultDivs {
+    background-color: rgb(222, 222, 222);
+    margin: 1rem auto;
+    padding: 2rem;
+    width: 50%;
+}
+
+.ResultDivs p {
+    /* background-color: rgb(147, 93, 93); */
+    margin: 0.4rem auto;
+    padding: 1rem;
+}
+
+.t1 {
+    text-shadow: 0.5rem 0.5rem rgb(49, 70, 79);
+    z-index: 4;
+}
+
+.t2 {
+    text-shadow: 0.8rem 0.8rem rgb(173, 146, 96);
+    z-index: 3;
+}
+
+.t3 {
+    text-shadow: 1.1rem 1.1rem rgb(100, 180, 157);
+    z-index: 2;
+}
+
+.t4 {
+    text-shadow: 1.4rem 1.4rem rgb(139, 62, 125);
+    z-index: 1;
+}
+
+.t5 {
+    width: 30rem;
+    height: 9rem;
+    background-color: rgb(212, 212, 212);
+    background-image: linear-gradient(135deg, #e8e9eb 0%, #c3cfe2 100%);
+
+    left: 37.3% !important;
+    top: 13.6% !important;
+    box-shadow: 1rem 1rem rgb(153, 88, 175);
+    transition: 0.3s ease-in-out;
+}
+
+.TitleGrade:hover~.t5 {
+    box-shadow: 1.3rem 1.3rem rgb(87, 125, 129) !important;
+    transition: 0.3s ease-in-out;
+}
+
+.TitleGrade {
+    letter-spacing: 0rem;
+    cursor: default;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    margin-top: 3rem;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 5rem;
+    color: white;
+}
+
+@media only screen and (max-width: 1800px) {
+    :root {
+        font-size: 13px;
+    }
+
+    .TitleGrade {
+        top: 10%;
+        left: 40%;
+    }
+
+    .t5 {
+        left: 37% !important;
+        top: 8.6% !important;
+    }
+
+    #GradeContent {
+        height: 60%;
+        margin: 18rem auto 0 auto;
+    }
+
+    #Failed #GradeContent {
+        width: 50%;
+        height: 60% !important;
+        margin: 18rem auto 0 auto !important;
+        padding: 4rem;
+    }
+}
+
+#GradeContent h1 {
+    font-size: 1.8rem;
+}
+
+#GradeContent p {
+    font-size: 1.2rem;
+    margin: 2rem;
+}
+
+#ScoreDiv {
+    background-color: rgb(46, 49, 66);
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0.2rem 0.5rem;
+    position: relative;
+}
+
+#ScoreDiv p {
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+    width: 100%;
+    background-color: #c3cfe2;
+    padding: 1rem 4rem;
+
+}
+
+#Celbreate {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+#sheet {
+    /* background-color: rgb(63, 50, 74); */
+    width: fit-content;
+    position: absolute;
+    top: 70%;
+    right: 20%;
+}
+
+#stars {
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    transform: rotateY(180deg);
+}
+
+.ResultDivs p {
+    position: relative;
+}
+
+.ResultDivs p span {
+    position: absolute;
+    right: 0.2rem;
+    top: 0.2rem;
+    background-color: #7e8dae;
+    color: white;
+    padding: 0.8rem;
+}
+
+.ResultDivs {
+    position: relative;
+    box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.422);
+    margin: 5rem auto;
+
+}
+
+.ResultDivs h2 {
+    margin: auto;
+    height: 5rem;
+}
+
+.correcticons {
+    position: absolute;
+    top: -3rem;
+    left: 0rem;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* box-shadow: -0.2rem 0rem rgb(198, 151, 75); */
+    border-radius: 0.5rem 0.5rem 0 0;
+    background-color: rgb(77, 88, 100);
+    color: white;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.correcticons .fa-xmark {
+    margin: 0 0.3rem;
+}
+
+.correcticons .fa-check {
+    margin: 0 0.3rem;
+}
+
+#Failed {
+    height: 100vh;
+    width: 100%;
+    padding: 55px;
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+
+#Failed .t1 {
+    text-shadow: 0.5rem 0.5rem rgb(49, 70, 79);
+    z-index: 4;
+}
+
+#Failed .t5 {
+    width: 24%;
+    height: 9rem;
+    background-color: rgb(212, 212, 212);
+    background-image: linear-gradient(135deg, #e8e9eb 0%, #c3cfe2 100%);
+
+    left: 37.3% !important;
+    top: 13.6% !important;
+    box-shadow: 1rem 1rem rgb(87, 125, 129);
+    transition: 0.3s ease-in-out;
+}
+
+#Failed .TitleGrade:hover~.t5 {
+    box-shadow: 1.3rem 1.3rem rgb(87, 125, 129) !important;
+    transition: 0.3s ease-in-out;
+}
+
+#Failed .TitleGrade {
+    letter-spacing: 0rem;
+    cursor: default;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 42.7%;
+    margin-top: 3rem;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 5rem;
+    color: white;
+}
+
+#GradeContent h3 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+#Failed #GradeContent {
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    width: 50%;
+    height: 50%;
+    cursor: default;
+    margin: 23rem auto;
+    padding: 4rem;
+    text-align: center;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.244);
+}
+
+#Failed #GradeContent h1 {
+    font-size: 1.8rem;
+}
+
+#Failed #GradeContent p {
+    font-size: 1.2rem;
+    margin: 2rem;
+}
+
+#Failed #ScoreDiv {
+    background-color: rgb(46, 49, 66);
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0.2rem 0.5rem;
+    position: relative;
+}
+
+#Failed #ScoreDiv p {
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+    width: 100%;
+    background-color: #c3cfe2;
+    padding: 1rem 4rem;
+
+}
+
+#Failed #Celbreate {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+#Failed #sheet {
+    width: fit-content;
+    position: absolute;
+    top: 70%;
+    right: 20%;
+}
+
+#Failed #stars {
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    transform: rotateY(180deg);
+}

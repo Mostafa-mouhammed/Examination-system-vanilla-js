@@ -1,0 +1,73 @@
+[
+    {
+        "question": "At the equator, how fast is the earth's surface turning?",
+        "A": "about 100 miles per hour",
+        "B": "about 500 miles per hour",
+        "C": "about 1000 miles per hour",
+        "D": "about 2000 miles per hour",
+        "answer": "C"
+    }, {
+        "question": "At what age can someone first attend an R-rated movie without an accompanying adult?",
+        "A": "15",
+        "B": "17",
+        "C": "18",
+        "D": "21",
+        "answer": "C"
+    }, {
+        "question": "Backgammon is a how many player game?",
+        "A": "Two",
+        "B": "Three",
+        "C": "Four",
+        "D": "Six",
+        "answer": "A"
+    }, {
+        "question": "Before he went into coaching, Phil Jackson played for which of the following NBA teams?",
+        "A": "Boston Celtics",
+        "B": "Los Angeles Lakers",
+        "C": "New York Knicks",
+        "D": "Philadelphia 76ers",
+        "answer": "C"
+    }, {
+        "question": "By what name is Bob Keeshan better known?",
+        "A": "Bozo the Clown",
+        "B": "Pee Wee Herman",
+        "C": "Captain Kangaroo",
+        "D": "Buffalo Bob",
+        "answer": "C"
+    }, {
+        "question": "By what collective name do Christians refer to God the Father, God the Son and the Holy Ghost?",
+        "A": "the Trio",
+        "B": "the Troika",
+        "C": "the Triumvirate",
+        "D": "the Trinity",
+        "answer": "D"
+    }, {
+        "question": "By what nickname is the Federal National Mortgage Association known?",
+        "A": "Morty",
+        "B": "FEMA",
+        "C": "Freddie Mac",
+        "D": "Fannie Mae",
+        "answer": "D"
+    }, {
+        "question": "Cheddar cheese got its name from a village in what country?",
+        "A": "England",
+        "B": "France",
+        "C": "Switzerland",
+        "D": "Denmark",
+        "answer": "A"
+    }, {
+        "question": "Cheese is a necessary ingredient in which of these dishes?",
+        "A": "sushi",
+        "B": "french fries",
+        "C": "veal parmigiano",
+        "D": "chicken pot pie",
+        "answer": "C"
+    }, {
+        "question": "During what war did Francis Scott Key write the words to 'The Star-Spangled Banner'?",
+        "A": "American Revolution",
+        "B": "War of 1812",
+        "C": "Civil War",
+        "D": "World War I",
+        "answer": "B"
+    }
+]

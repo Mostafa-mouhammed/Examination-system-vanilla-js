@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grades Page</title>
+    <link rel="stylesheet" href="/CSS/Grades.css">
+    <script src="/JS/Jquery.js"></script>
+    <script src="https://kit.fontawesome.com/3bb01edb3e.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+
+</head>
+
+<body>
+    <div id="Sucssess">
+
+        <h2 class="TitleGrade t1">Congrats</h2>
+        <h2 class="TitleGrade t2">Congrats</h2>
+        <h2 class="TitleGrade t3">Congrats</h2>
+        <h2 class="TitleGrade t4">Congrats</h2>
+        <h2 class="TitleGrade t5"></h2>
+        <div id="GradeContent">
+            <h3></h3>
+            <h1>You Passed The Exam</h1>
+            <p>Your Score</p>
+            <div id="ScoreDiv">
+                <p class="MyScore">0</p>
+                <p>10</p>
+            </div>
+            <lord-icon id="sheet" src="https://cdn.lordicon.com/yqiuuheo.json" trigger="in" state="in-reveal"
+                style="width:10rem;height:10rem">
+            </lord-icon>
+        </div>
+        <lord-icon id="Celbreate" src="https://cdn.lordicon.com/fkmafinl.json" trigger="loop" delay="0"
+            state="in-reveal" style="width:18rem;height:18rem">
+        </lord-icon>
+        <lord-icon id="stars" src="https://cdn.lordicon.com/fkmafinl.json" trigger="loop" delay="0" state="in-reveal"
+            style="width:18rem;height:18rem">
+        </lord-icon>
+    </div>
+
+    <div id="Failed">
+
+        <h2 class="TitleGrade t1">Sorry</h2>
+        <h2 class="TitleGrade t5"></h2>
+        <div id="GradeContent">
+            <h3></h3>
+            <h1>You Failed The Exam</h1>
+            <p>Your Score</p>
+            <div id="ScoreDiv">
+                <p class="MyScore">0</p>
+                <p>10</p>
+            </div>
+        </div>
+
+        <lord-icon id="Celbreate" src="https://cdn.lordicon.com/osperlqv.json" trigger="loop" delay="800"
+            style="width:15rem;height:15rem">
+        </lord-icon>
+        <lord-icon id="stars" src="https://cdn.lordicon.com/osperlqv.json" trigger="loop" delay="800"
+            style="width:15rem;height:15rem">
+        </lord-icon>
+
+    </div>
+
+    <div id="Content">
+        <h4>Check Your Answers</h4>
+        <lord-icon id="CheckAnsicon" src="https://cdn.lordicon.com/biljllsy.json" trigger="loop" delay="500"
+            style="width:20rem;height:20rem"></lord-icon>
+        <div id="Your_Answers"></div>
+
+    </div>
+</body>
+<script src="/JS/Grades.js"></script>
+
+</html>
